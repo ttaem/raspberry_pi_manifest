@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote                                                                      
+		name="origin"                                                            
+		fetch="ssh://git@github.com/"/>                                          
+	<default
+		revision="master"  
+		remote="origin"  
+		sync-j="4" />
+	<project                                          
+		groups="pi"
+		sync-c="true"
+		revision="master"
+		path="linux"                            
+		name="raspberrypi/linux"/>
+	<project                                          
+		groups="my"
+		sync-c="true"
+		revision="master"
+		upstream="master"
+		path="build"                                  
+		name="ttaem/raspberry_pi_build">
+	<copyfile src="top.mk" dest="Makefile"/>
+	<copyfile src="top.sh" dest="Env.sh"/>
+	</project>
+</manifest>
