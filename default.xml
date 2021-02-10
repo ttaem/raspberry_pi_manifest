@@ -4,20 +4,20 @@
 		name="origin"                                                            
 		fetch="ssh://git@github.com/"/>                                          
 	<default
-		revision="master"  
+		revision="main"  
 		remote="origin"  
 		sync-j="4" />
 	<project                                          
 		groups="pi"
 		sync-c="true"
-		revision="master"
+		revision="rpi-5.10.y"
 		path="linux"                            
 		name="raspberrypi/linux"/>
 	<project                                          
 		groups="my"
 		sync-c="true"
-		revision="master"
-		upstream="master"
+		revision="main"
+		upstream="main"
 		path="build"                                  
 		name="ttaem/raspberry_pi_build">
 	<copyfile src="top.mk" dest="Makefile"/>
