@@ -11,6 +11,8 @@
 		groups="pi"
 		sync-c="true"
 		revision="rpi-5.10.y"
+		upstream="rpi-5.10.y"
+		dest-branch="rpi-5.10.y"
 		path="linux"                            
 		name="raspberrypi/linux"/>
 	<project                                          
