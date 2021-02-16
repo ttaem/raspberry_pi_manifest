@@ -25,4 +25,12 @@
 	<copyfile src="top.mk" dest="Makefile"/>
 	<copyfile src="top.sh" dest="Env.sh"/>
 	</project>
+	<project                                          
+		groups="my"
+		sync-c="true"
+		revision="main"
+		upstream="main"
+		path="linux_driver_study"                                  
+		name="ttaem/linux_driver_study">
+	</project>
 </manifest>
