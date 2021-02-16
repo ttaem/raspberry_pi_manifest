@@ -1,4 +1,5 @@
 # raspberry_pi_manifest
 
 
-repo init -u git@github.com:ttaem/raspberry_pi_manifest.git -b main
+1. repo init -u git@github.com:ttaem/raspberry_pi_manifest.git -b main
+2. repo sync
